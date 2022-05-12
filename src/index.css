@@ -45,3 +45,18 @@ hr {
   flex: 1;
 
 }
+
+/* INPUT CONTAINER */
+.input-container {
+  width: 50%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+.input-container input {
+  width: 100%;
+  border-radius: 9px;
+  padding: 15px;
+  border: none;
+  font-size: 15px;
+}

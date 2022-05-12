@@ -2,49 +2,49 @@ const building = [
       {
         id: 'B1',
         structureType: 'building',
-        name: 'general hospital',
+        name: 'General hospital',
         xCoordinate: 1300,
         yCoordinate: 560
       },
       {
         id: 'B2',
         structureType: 'building',
-        name: 'firehall',
+        name: 'Firehall',
         xCoordinate: -350,
         yCoordinate: 1100
       },
       {
         id: 'B3',
         structureType: 'building',
-        name: 'university',
+        name: 'University',
         xCoordinate: -890,
         yCoordinate: -1300
       },
       {
         id: 'B4',
         structureType: 'building',
-        name: 'central library',
+        name: 'Central library',
         xCoordinate: 470,
         yCoordinate: 1010
       },
       {
         id: 'B5',
         structureType: 'building',
-        name: 'secondary school',
+        name: 'Secondary school',
         xCoordinate: 1550,
         yCoordinate: 850
       },
       {
         id: 'B6',
         structureType: 'building',
-        name: 'primary school',
+        name: 'Primary school',
         xCoordinate: 1450,
         yCoordinate: 950
       },
       {
         id: 'B7',
         structureType: 'building',
-        name: 'city hall',
+        name: 'City hall',
         xCoordinate: -600,
         yCoordinate: 200
       },
