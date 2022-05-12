@@ -7,6 +7,7 @@ export default function SearchBar() {
   const [query, setQuery] = useState('');
   //console.log("QUERY", query);
   console.log('BUILDING', building);
+
   function userInput(event) {
     const userValue = event.target.value
     setQuery(userValue)
@@ -22,7 +23,10 @@ export default function SearchBar() {
     }
   }).map(item => {
     return (
-      <BuildingData key={item.id} {...item} />
+      <BuildingData 
+        key={item.id} 
+        {...item}
+      />
     )
   })
   return (
