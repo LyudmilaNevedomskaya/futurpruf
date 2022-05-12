@@ -4,4 +4,44 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
+  background-color: slategray;
+}
+p {
+  margin: 0;
+}
+hr {
+  margin-bottom: 0;
+}
+/* HEADER */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.table-header-container {
+  background-color: rgb(237, 126, 89);
+  padding: 15px;
+  width: 80%;
+  margin: auto;
+  font-weight: 700;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+.buildings-container {
+  background-color: antiquewhite;
+  padding: 15px;
+  width: 80%;
+  margin: auto;
+}
+.buildings {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.buildings p {
+  flex: 1;
+
 }
